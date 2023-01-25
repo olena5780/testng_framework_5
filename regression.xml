@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test name="AllFunctionalities">
+        <classes>
+            <class name="scripts.TechGlobalCheckBoxPageTest">
+                <methods>
+                    <include name="validateCheckboxes"/>
+                    <include name="validatePractice"/>
+                </methods>
+            </class>
+            <class name="scripts.TechGlobalDynamicElementsTest">
+                <methods>
+                    <include name="dynamicElementsTest"/>
+                </methods>
+            </class>
+            <class name="scripts.TechGlobalFrontendTestingHomeTest">
+                <methods>
+                    <exclude name="validateFrontedTestingCards"/>
+                    <include name="validateFrontendTestingURL"/>
+                </methods>
+            </class>
+            <class name="scripts.TechGlobalHeaderTest">
+                <methods>
+                    <exclude name="validateTechGlobalHeaderDropdown"/>
+                    <include name="validateTechGlobalHeaderDropdownOptions"/>
+                </methods>
+            </class>
+
+            <class name="scripts.TechGlobalRadioButtonsPageTest">
+                <methods>
+                    <include name="languageRadioButtons"/>
+                    <include name="languageRadioButtons2"/>
+                </methods>
+            </class>
+            <class name="scripts.TechGlobalWaitsPageTest">
+                <methods>
+                    <include name="validateRedBox"/>
+                </methods>
+            </class>
+            <class name="scripts.TechGlobalDropdownsTest"/>
+            <class name="scripts.TechGlobalMultipleWindowsTest"/>
+        </classes>
+    </test>
+</suite>
