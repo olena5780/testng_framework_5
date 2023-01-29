@@ -23,4 +23,7 @@ public class TechGlobalHeaderTest extends TechGlobalBase {
             Assert.assertEquals(techGlobalBasePage.headerDropdownOptions.get(i).getText(), optionTexts[i]);
         }
     }
+
+
+
 }
