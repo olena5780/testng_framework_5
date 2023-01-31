@@ -106,4 +106,31 @@ public class TechGlobalDynamicTablesTest extends TechGlobalBase{
 
 
     }
-}
+    /**
+     * TEST2
+     * Go to https://techglobal-training.netlify.app/
+     * Click on "Practices" dropdown in the header
+     * Select the "Frontend Testing" option
+     * Click on the "Sortable Tables" card
+     * Click on the Quantity sort button to toggle descending order
+     * Verify that the Quantity column of the table is sorted in descending order
+     * TEST3
+     * Go to https://techglobal-training.netlify.app/
+     * Click on "Practices" dropdown in the header
+     * Select the "Frontend Testing" option
+     * Click on the "Sortable Tables" card
+     * Click on the Price sort button to toggle Ascending Order
+     * Verify that the Price column of the table is sorted in ascending order
+     * TEST4
+     * Go to https://techglobal-training.netlify.app/
+     * Click on "Practices" dropdown in the header
+     * Select the "Frontend Testing" option
+     * Click on the "Sortable Tables" card
+     * Click on the Price sort button to toggle descending order
+     * Verify that the Price column of the table is sorted in descending order
+     */
+
+
+
+
+     }
